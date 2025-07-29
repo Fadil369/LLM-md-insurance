@@ -1,10 +1,6 @@
 version: 2
 updates:
   - package-ecosystem: "pip"
-    directory: "/" # Location of requirements.txt
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "docker"
-    directory: "/" # Location of Dockerfile
+    directory: "/" # Set to subdirectory if files are not in root
     schedule:
       interval: "weekly"
